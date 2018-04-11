@@ -1,0 +1,16 @@
+{
+    "name": "composer/project",
+    "description": "This a composer test",
+    "type": "library",
+    "require": {
+        "alphayax/get_opt": "3.0.0"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Simon Girardin",
+            "email": "s.girardin0@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

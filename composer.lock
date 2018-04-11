@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4f352c661e509eac09cd7eaf12b6abf4",
+    "packages": [
+        {
+            "name": "alphayax/get_opt",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alphayax/get_opt.git",
+                "reference": "e8a6a15ba37130431d46bb9e4839b87785ee885b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alphayax/get_opt/zipball/e8a6a15ba37130431d46bb9e4839b87785ee885b",
+                "reference": "e8a6a15ba37130431d46bb9e4839b87785ee885b",
+                "shasum": ""
+            },
+            "require-dev": {
+                "codacy/coverage": "dev-master",
+                "phpunit/phpcov": "2.*",
+                "phpunit/phpunit": "^4.8.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "alphayax\\utils\\cli\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Yann Ponzoni",
+                    "email": "alphayax@gmail.com"
+                }
+            ],
+            "description": "Utility class for manage scripts arguments",
+            "time": "2017-11-26T16:31:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
